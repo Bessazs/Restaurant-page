@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'hobo_btregular';
+    src: url('../Fonts/hobo/hobo_bt-webfont.woff2') format('woff2'),
+         url('../Fonts/hobo/hobo_bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gladiolaregular';
+    src: url('../Fonts/gladiola/gladiola-webfont.woff2') format('woff2'),
+         url('../Fonts/gladiola/gladiola-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: clamp(1rem, 0.3243rem + 2.1622vw, 3rem);
+}
+
+header{
+
+    height: 7dvh;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 8px;
+    gap: 2rem;
+    
+}
+
+
+nav > button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'hobo_btregular';
+    font-size: 2rem;
+    
+}
+
+#content{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.box-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(9,125,76,255);
+    
+}
+
+.tittle{
+    font-family: 'hobo_btregular';
+    font-size: 8rem;
+
+}
+
+.subTittle{
+    margin-top: -2.4rem;
+    margin-left: 21rem;
+    font-family: 'gladiolaregular';
+    font-size: 4rem;
+}
+
+.box-figs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: minmax
+}
+.fig{
+    height: 40dvh;
+    width: 33dvw;
+}
+
+
+/** Menu **/
+
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.containerMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6rem;
+
+}
+
+.box-tittleMenu{
+    display: flex;
+    justify-content: center;
+    margin-right: 5.5rem;
+}
+.boxMeals{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.divMeal{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+
+}
+
+.descriptionMeal{
+    font-size: 2rem;
+
+}
+
+.tittleMeal{
+    font-size: 2.6rem;
+    
+}
+
+.tomatoImg{
+    height: 80dvh;
+    width: 33dvw;
+}
